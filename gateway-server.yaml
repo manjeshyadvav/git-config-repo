@@ -7,3 +7,9 @@ server:
 spring:
     application:
         name: gateway-server
+        
+zuul:
+  routes:
+    customer-service:
+      path: /**
+      url: http://localhost:8765/customer-service
