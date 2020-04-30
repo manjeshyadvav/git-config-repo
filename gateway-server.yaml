@@ -13,3 +13,6 @@ zuul:
     customer-service:
       path: /**
       url: http://localhost:8765/customer-service
+    book-service:
+      path: /**
+      url: http://localhost:8765/book-service
